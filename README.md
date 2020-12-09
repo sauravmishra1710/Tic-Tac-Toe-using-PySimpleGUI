@@ -18,6 +18,10 @@ https://github.com/PySimpleGUI/PySimpleGUI/blob/master/DemoPrograms/Demo_Design_
 
 Only 1 window at a time is visible/active on the screen.
 
+## Source Code
+
+https://github.com/sauravmishra1710/Tic-Tac-Toe-using-PySimpleGUI/blob/main/tic_tac_toe_v1.py
+
 ## Game Workflows
 
 1. Game launched with the INIT_WINDOW dialog to allow enter the players details and specifications.
@@ -30,3 +34,8 @@ Only 1 window at a time is visible/active on the screen.
 
 4. RESET would reset thecurrent game session and
 start over a fresh board.
+
+## Game Demo
+
+![Tic-Tac-Toe](https://github.com/sauravmishra1710/Tic-Tac-Toe-using-PySimpleGUI/blob/main/tic-tac-toe.gif)
+
