@@ -39,11 +39,11 @@ INIT_WINDOW = None
 GAME_BOARD = None
 
 CURRENT_WORKING_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
-X_IMAGE = CURRENT_WORKING_DIRECTORY + '\\X.png'
-X_RED = CURRENT_WORKING_DIRECTORY + '\\X_Red.png'
-O_IMAGE = CURRENT_WORKING_DIRECTORY + '\\O.png'
-O_RED = CURRENT_WORKING_DIRECTORY + '\\O_Red.png'
-GAME_ICON = CURRENT_WORKING_DIRECTORY + '\\tictactoe.ico'
+X_IMAGE = os.path.join(CURRENT_WORKING_DIRECTORY, 'X.png')
+X_RED = os.path.join(CURRENT_WORKING_DIRECTORY,'X_Red.png')
+O_IMAGE = os.path.join(CURRENT_WORKING_DIRECTORY, 'O.png')
+O_RED = os.path.join(CURRENT_WORKING_DIRECTORY, 'O_Red.png')
+GAME_ICON = os.path.join(CURRENT_WORKING_DIRECTORY, 'tictactoe.ico')
 
 START_GAME: bool = False
 CHECK_FOR_WINNER: bool = False
